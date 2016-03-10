@@ -6,52 +6,63 @@
   </head>
   <body>
 	<div class="container">
-		<div class="container-wrapper">
-			<div class="page-header">
-				<ul class="page-header__nav-items">
-					<li>Главная</li>
-					<li>Фото и Видео</li>
-					<li>Форма Отзыва</li>
-					<li>HTML ACADEMY</li>
+		
+			<div class="header">
+			<ul class="main-nav">
+					<li class="main-nav__item"><a href="@" class="main-nav__item-a">Главная</a></li>
+					<li class="main-nav__item"><a href="@" class="main-nav__item-a">Фото и Видео</a></li>
+					<li class="main-nav__item"><a href="@" class="main-nav__item-a"> Форма Отзыва</a></li>
+					<li class="main-nav__item"><a href="@" class="main-nav__item-a">HTML ACADEMY</a></li>
 				</ul>
-				<img src="http://placehold.it/320x202">
+				<div class="header-background__photo">
+					<img src="http://placehold.it/320x202">
+				</div>
 			</div>
 			<div class="content-feedback">
-				 <p class="content-feedback__title">Оставьте свой отзыв</p>
+				 <h6 class="content-feedback__title">Оставьте свой отзыв</h6>
 				 <p class="content-feedback__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
-				 <p class="content-feedback__title">Представьтесь, Пожалуйста:</p>
-				 <form action="" class="">
+				 <form action="" class="content-feedback_form">
+				 <fieldset class="content-feedback__space">
+				 	<b class="content-feedback__title">Представьтесь, Пожалуйста:</b>
 				 	<label>Имя:<input type="text" name="text" class="feedback-input__first" placeholder="Пётр"></label>
-				 	<label>Фамилия:<input type="text" name="text" placeholder="Иванов"></label>
-				 	<label>Отчество:<input type="text" name="text" placeholder="Александрович"></label>
-				 		<p class="content-feedback__title">Контактная информация:</p>
+				 	<label>Фамилия:<input type="text" name="text" class="feedback-input__first" placeholder="Иванов"></label>
+				 	<label>Отчество:<input type="text" name="text" class="feedback-input__first" placeholder="Александрович"></label>
+				 </fieldset>
+				 <fieldset class="content-feedback__space">
+				 		<h6 class="content-feedback__title">Контактная информация:</h6>
 				 			<label>Контактный телефон:<input type="tel" name="text" class="feedback-tel" placeholder="Введите телефон"></label>
 				 			<p class="feedback-tel__error">Ошибка, перепроверьте номер</p>
 				 			<label>Электронная почта:<input type="email" name="text" class="feedback-email" placeholder="Введите e-mail"></label>
-				 				<p class="content-feedback__title">Ваше общее впечатление:</p>
-				 					<label><input type="radio" checked>Скорее положительное</label>
-				 					<label><input type="radio">Скорее отрицательное</label>
-				 					<label><input type="radio">Затрудняюсь ответить</label>
-				 						<p class="content-feedback__title">Посещенные достопримечательности:</p>
-				 							<label><input type="checkbox" checked>Мост Дьявола</label>
-				 							<label><input type="checkbox" checked>Слайд-парк</label>
-				 							<label><input type="checkbox">Гора-Колокол</label>
-				 							<label><input type="checkbox" checked>Красные скалы</label>
+				 		</fieldset>
+				 		<fieldset class="content-feedback__space">
+				 				<h6 class="content-feedback__title">Ваше общее впечатление:</h6>
+				 					<label><input type="radio" class="content-feedback__radio" checked>Скорее положительное</label>
+				 					<label><input type="radio" class="content-feedback__radio">Скорее отрицательное</label>
+				 					<label><input type="radio" class="content-feedback__radio">Затрудняюсь ответить</label>
+				 			</fieldset>
+				 			<fieldset class="content-feedback__space">
+				 						<h6 class="content-feedback__title">Посещенные достопримечательности:</h6>
+				 							<label><input type="checkbox" class="content-feedback__checkbox" checked>Мост Дьявола</label>
+				 							<label><input type="checkbox" class="content-feedback__checkbox" checked>Слайд-парк</label>
+				 							<label><input type="checkbox" class="content-feedback__checkbox">Гора-Колокол</label>
+				 							<label><input type="checkbox" class="content-feedback__checkbox" checked>Красные скалы</label>
+				 			</fieldset>
 				 								<p class="content-feedback__title">Опишите свои эмоции:</p>
-				 									<textarea class="content-feedback__space" placeholder="Опишите подробно все свои восторги"></textarea>
+				 									<textarea class="content-feedback__area" placeholder="Опишите подробно все свои восторги"></textarea>
 				 										<a href="@" class="content-feedback btn">Отправить отзыв</a>
 				 </form>
 			</div><!--End content-feedback-->
 				<div class="footer">
 					<span class="footer-title">#VISITSEDONA</span>
-						<ul class="footer-social">
-							<li class="footer-social__instagramm"></li>
-							<li class="footer-social__facebook"></li>
-							<li class="footer-social__youtube"></li>
+					<ul class="footer-social">
+							<li class="footer-social__instagramm"><a href="@" class="footer-social__a"></a></li>
+							<li class="footer-social__facebook"><a href="@" class="footer-social__a"></a></li>
+							<li class="footer-social__youtube"><a href="@" class="footer-social__a"></a></li>
 						</ul>
 					<div class="footer-copyright">Разработано</div>
+					<b class="author"><img src="http://placehold.it/25x32"></b>
 				</div>
-	</div><!--End ccontent-wrapper-->
+	
 	</div><!--End container-->
 
   </body>
