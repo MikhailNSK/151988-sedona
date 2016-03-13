@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>HTML Academy: Седона</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <ul class="main-nav">
+        <li class="main-nav__item"><a href="@" class="main-nav__link">Главная</a></li>
+        <li class="main-nav__item"><a href="@" class="main-nav__link">Фото и Видео</a></li>
+        <li class="main-nav__item"><a href="@" class="main-nav__link"> Форма Отзыва</a></li>
+        <li class="main-nav__item"><a href="@" class="main-nav__link">HTML ACADEMY</a></li>
+      </ul>
+      <div class="header-background">
+        <img src="http://placehold.it/320x202">
+      </div>
+    </div>
+    <div class="content-feedback">
+     <h6 class="content-feedback__title">Оставьте свой отзыв</h6>
+     <p class="content-feedback__text">Помогите нашим отелям стать лучше! оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+
+     <form action="" class="feedback-form">
+
+       <fieldset class="feedback-form__area">
+         <legend class="feedback-form__title">Представьтесь, Пожалуйста:</legend>
+         <label class="feedback-form__label form__label--text">Имя:<input type="text" name="text" class="feedback-form__input feedback-form__input--text" placeholder="Пётр"></label>
+         <label class="feedback-form__label form__label--text">Фамилия:<input type="text" name="text" class="feedback-form__input feedback-form__input--text" placeholder="Иванов"></label>
+         <label class="feedback-form__label form__label--text">Отчество:<input type="text" name="text" class="feedback-form__input feedback-form__input--text" placeholder="Александрович"></label>
+       </fieldset>
+
+       <fieldset class="feedback-form__area">
+         <legend class="feedback-form__title">Контактная информация:</legend>
+         <label class="feedback-form__label feedback-form__label--tel">Контактный телефон:<input type="tel" name="text" class="feedback-form__input feedback-form__input--tel" placeholder="Введите телефон"></label>
+         <p class="feedback-form__error">Ошибка, перепроверьте номер</p>
+         <label class="feedback-form__label feedback-form__label--email">Электронная почта:<input type="email" name="text" class="feedback-form__input feedback-form__input--email" placeholder="Введите e-mail"></label>
+       </fieldset>
+
+       <fieldset class="feedback-form__area">
+         <legend class="feedback-form__title">Ваше общее впечатление:</legend>
+         <label class="feedback-form__label feedback-form__label--radio"><input type="radio" class="feedback-form__input feedback-form__input--radio" checked>Скорее положительное</label>
+         <label class="feedback-form__label feedback-form__label--radio"><input type="radio" class="feedback-form__input feedback-form__input--radio">Скорее отрицательное</label>
+         <label class="feedback-form__label feedback-form__label--radio"><input type="radio" class="feedback-form__input feedback-form__input--radio">Затрудняюсь ответить</label>
+       </fieldset>
+
+       <fieldset class="feedback-form__area">
+         <legend class="feedback-form__title">Посещенные достопримечательности:</legend>
+         <label class="feedback-form__label feedback-form__label--checkbox"><input type="checkbox" class="feedback-form__input feedback-form__input--checkbox" checked>Мост Дьявола</label>
+         <label class="feedback-form__label feedback-form__label--checkbox"><input type="checkbox" class="feedback-form__input feedback-form__input--checkbox" checked>Слайд-парк</label>
+         <label class="feedback-form__label feedback-form__label--checkbox"><input type="checkbox" class="feedback-form__input feedback-form__input--checkbox">Гора-Колокол</label>
+         <label class="feedback-form__label feedback-form__label--checkbox"><input type="checkbox" class="feedback-form__input feedback-form__input--checkbox" checked>Красные скалы</label>
+       </fieldset>
+
+       <label class="feedback-form__title" for="textarea">Опишите свои эмоции:</label>
+       <textarea class="feedback-form__space" id="textarea" placeholder="Опишите подробно все свои восторги"></textarea>
+       <a href="@" class="feedback-form__link btn">Отправить отзыв</a>
+     </form><!--End Form-->
+   </div><!--End content-feedback-->
+   <div class="footer">
+    <span class="footer-definition">#VISITSEDONA</span>
+    <ul class="footer-social">
+     <li class="footer-social__item footer-social__item--instagramm"><a href="@" class="footer-social__link--instagramm"></a></li>
+     <li class="footer-social__item footer-social__item--facebook"><a href="@" class="footer-social__link--facebook"></a></li>
+     <li class="footer-social__item footer-social__item--youtube"><a href="@" class="footer-social__link--youtube"></a></li>
+   </ul>
+   <div class="footer-copyright">Разработано
+    <a href="@" class="footer-copyright__link"><img src="http://placehold.it/25x32"></a>
+  </div>
+</div>
+</div><!--End container-->
+</body>
+</html>
