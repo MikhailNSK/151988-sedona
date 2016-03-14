@@ -1,0 +1,8 @@
+.photo-block {
+outline: 2px solid blue;
+     &__photo {
+      text-align: center;
+      margin-left: 5px;
+      outline: 1px solid red;
+     }
+}
