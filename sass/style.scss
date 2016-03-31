@@ -1,18 +1,22 @@
 @import "variables.scss";
 @import "fonts.scss";
+@import "general.scss";
+@import "container.scss";
 
-@import "reasons-search.scss";
-@import "reasons.scss";
 
-@import "reason.scss";
-
+@import "header.scss";
 @import "main-nav.scss";
 @import "header-background.scss";
-@import "header-description.scss";
-@import "header.scss";
-@import "footer-copyright.scss";
-@import "footer.scss";
-@import "container.scss";
+
+@import "reasons.scss";
+@import "reason.scss";
+@import "reasons-description.scss";
+
+
+
+
+@import "reasons-search.scss";
+
 
 @import "content-photo.scss";
 @import "content-presentation.scss";
@@ -20,4 +24,9 @@
 @import "video-input.scss";
 @import "video-panel.scss";
 
-@import "general.scss";
+@import "content-feedback.scss";
+@import "feedback-form.scss";
+
+
+@import "footer.scss";
+

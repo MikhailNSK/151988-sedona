@@ -1,0 +1,39 @@
+.reasons-row {
+
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  &--image {
+
+  }
+}
+
+.reason {
+
+  @media (min-width: 768px) {
+    width: 33.3%;
+    float: left;
+
+    &--invert {
+  float: right;
+    }
+  }
+}
+
+.reason-image {
+
+
+  @media (min-width: 768px) {
+    width: 66.7%;
+    float: right;
+
+    &--invert {
+      float: left;
+    }
+  }
+
+}
+

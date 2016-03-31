@@ -1,8 +1,35 @@
 .photo-block {
-outline: 2px solid blue;
+      padding-top: 20px;
+      border-top: 1px solid #E5E5E5;
      &__photo {
       text-align: center;
-      margin-left: 5px;
-      outline: 1px solid red;
      }
+     &__description {
+      text-align: left;
+      padding-left: 20px;
+      padding-top: 14px;
+      display: block;
+      text-transform: uppercase;
+      font-size: 14px;
+      font-weight: bold;
+      margin: 0;
+     }
+     &__author {
+      text-align: left;
+      padding-left: 20px;
+      padding-top: 5px;
+      color: #7D7D7D;
+      display: block;
+     }
+     &__like {
+      padding-left: 65px;
+      padding-top: 14px;
+      padding-bottom: 20px;
+      font-weight: bold;
+      font-size: 14px;
+      display: block;
+     }
+}
+.photo-block:last-child {
+      border-bottom: 1px solid #E5E5E5;
 }

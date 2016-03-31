@@ -1,9 +1,10 @@
 .main-nav {
+  margin:0;
   margin-bottom: 56px;
   padding-left: 0;
   text-align: center;
 
-&__link {
+  &__link {
   width: 320px;
   display: block;
 
@@ -18,7 +19,7 @@
   text-transform: uppercase;
 }
 
-&__item {
+  &__item {
 
   list-style: none;
 }

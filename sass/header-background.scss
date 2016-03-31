@@ -1,9 +1,11 @@
 .header-background {
    width: 320px;
- height: 360px;
- margin-bottom: 46px;
- background: url("../img/bg-back-mobile.jpg");
-padding:0;
- background-size: cover;
- background-repeat: no-repeat;
+   height: 360px;
+   margin-bottom: 46px;
+   width: 100%;
+   background: url("../img/text-sedona-index.svg") no-repeat center,
+      $bg-darkgrey url("../img/bg-back-mobile.jpg") no-repeat;
+   padding:0;
+   background-size: cover;
+   background-repeat: no-repeat;
 }

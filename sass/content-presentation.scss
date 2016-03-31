@@ -1,0 +1,17 @@
+.content-presentation {
+  &__title {
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+    font-size: 18px;
+    padding-top: 34px;
+    padding-bottom: 15px;
+  }
+  &__text {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 23px;
+    padding: 0 25px 18px 25px;
+  }
+}
