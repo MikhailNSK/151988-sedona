@@ -4,39 +4,8 @@
   margin-top: 40px;
 }
 
-
-.footer-definition {
-    font-weight: bold;
-    font-size: 21px;
-  }
+@media #{$tablet-width} {}
+@media #{$desktop-width} {}
 
 
-.footer-social {
-    margin: 38px auto 38px auto;
-    width: 180px;
-    display: block;
-    padding: 0;
 
-  &__item {
-    display: inline-block;
-    list-style: none;
-    margin-right: 2px;
-  }
-  &__link {
-  display: block;
-  padding: 24px 23px;
-
-  background: url("../img/icon-facebook.svg") no-repeat center #81B3D2;
-  }
-}
-
-.footer-copyright {
-    width: 200px;
-    margin: 0 auto;
-    text-transform: uppercase;
-    font-size: 14px;
-    text-align: center;
-    display: block;
-    vertical-align: top;
-    outline: 1px solid red;
-}

@@ -192,6 +192,10 @@
 
 }
 
+@media #{$tablet-width} {}
+@media #{$desktop-width} {}
+
+
 .label-wrapper1 {
   display: flex;
   align-items: center;

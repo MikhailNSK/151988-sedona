@@ -30,6 +30,10 @@
       display: block;
      }
 }
+
 .photo-block:last-child {
       border-bottom: 1px solid #E5E5E5;
 }
+
+@media #{$tablet-width} {}
+@media #{$desktop-width} {}

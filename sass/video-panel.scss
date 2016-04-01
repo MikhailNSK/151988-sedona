@@ -1,7 +1,6 @@
 .video-panel {
   width: 280px;
   height: 111px;
-
   margin: 0 auto;
   margin-top: -49px;
 }
@@ -33,3 +32,6 @@
     left: 60px;
   }
 }
+
+@media #{$tablet-width} {}
+@media #{$desktop-width} {}

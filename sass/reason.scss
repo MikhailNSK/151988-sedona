@@ -1,9 +1,6 @@
  .reason {
   margin: 0;
   color: #000;
-
-
-
   &__title {
     margin: 0;
     text-transform: uppercase;
@@ -17,7 +14,6 @@
     padding-top: 8px;
     }
 }
-
     &__number {
       display: block;
         text-align: center;
@@ -52,22 +48,28 @@
    &--icon:last-child {
     padding-bottom: 25px;
    }
-
-  /*
-  &__photo {
-    width: 100%;
-    height: 260px;
-    background: url("../img/photo-city.jpg") no-repeat center;
-  }
-   &__photo--second {
-    width: 100%;
-    height: 260px;
-    background: url("../img/photo-bridge.jpg") no-repeat center;
- }*/
  }
+
+@media #{$tablet-width} {
+    .reason {
+      width: 33.3%;
+      float: left;
+
+    &--invert {
+      float: right;
+    }
+    &--blue {
+      height: 256px;
+    }
+  }
+}
+
+@media #{$desktop-width} {}
 
 .reason-row {
   &--gray {
   background: #EEEEEE;
 }
 }
+
+

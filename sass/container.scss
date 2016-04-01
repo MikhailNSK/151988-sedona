@@ -1,9 +1,20 @@
 .container {
-margin: 0 auto;
+  margin: 0 auto;
+  margin-top: 0;
+  width: 320px;
+  background: white;
+  outline: 1px solid red;
+  font-family: "PT Sans", Arial, sans-serif;
+}
 
-margin-top: 0;
- width: 320px;
- background: white;
- outline: 1px solid red;
- font-family: "PT Sans", Arial, sans-serif;
+@media #{$tablet-width} {
+  .container {
+    width: 768px;
+  }
+}
+
+@media #{$desktop-width} {
+  .container {
+    width: 1132px;
+  }
 }

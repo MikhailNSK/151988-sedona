@@ -1,0 +1,16 @@
+.reason-image {}
+
+@media #{$tablet-width} {
+ .reason-image {
+   width: 66.7%;
+    float: right;
+    height: 256px;
+    outline: 1px solid red;
+   &--invert {
+    float: left;
+  }
+ }
+}
+
+
+@media #{$desktop-width} {}

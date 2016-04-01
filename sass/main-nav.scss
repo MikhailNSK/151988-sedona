@@ -5,23 +5,55 @@
   text-align: center;
 
   &__link {
-  width: 320px;
-  display: block;
-
-  padding: 19px 0px;
-  background: $primary-color;
-  border-bottom: 1px solid #6A92AB;
-  border-top: 1px solid #94BED9;
-  color: white;
-  font-size: 18px;
-  font-weight: bold;
-  text-decoration: none;
-  text-transform: uppercase;
-}
+    width: 320px;
+    display: block;
+    padding: 19px 0px;
+    background: $primary-color;
+    border-bottom: 1px solid #6A92AB;
+    border-top: 1px solid #94BED9;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
 
   &__item {
-
-  list-style: none;
+    list-style: none;
+  }
 }
 
+@media #{$tablet-width} {
+  .main-nav {
+    margin:0;
+    background: url("../img/logo-sedona-mobile.svg") no-repeat center;
+    background-position: 50% 0;
+    &__item {
+      display: inline-block;
+    }
+    &__item:nth-child(2) {
+      margin-right: 143px;
+    }
+    &__link {
+      width: 153px;
+      color: #000000;
+      background:none;
+      border: none;
+      font-size: 14px;
+    }
+  }
+}
+
+@media #{$desktop-width} {
+
+  .main-nav {
+    &__item:nth-child(2) {
+      margin-right: 271px;
+    }
+    &__link {
+      outline: 1px solid red;
+      padding: 17px 10px 17px 10px;
+      margin-right: 33px;
+    }
+  }
 }
