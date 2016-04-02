@@ -35,5 +35,57 @@
       border-bottom: 1px solid #E5E5E5;
 }
 
-@media #{$tablet-width} {}
-@media #{$desktop-width} {}
+@media #{$tablet-width} {
+    .photo-block {
+      border-top: none;
+      outline: 1px solid blue;
+      background-color: #F2F2F2;
+      padding-top: 0;
+      position: relative;
+      &__photo {
+        width: 324px;
+        height: 267px;
+        background-color: red;
+        &--main {
+          width: 648px;
+          height: 400px;
+          background-color: red;
+        }
+      }
+      &__description {
+        float: left;
+      }
+      &__description-item {
+
+        float: left;
+        padding-bottom: 17px;
+        padding-top: 7px;
+      }
+      &__like {
+        padding: 0;
+      }
+      &__like-item {
+        padding-left: 0px;
+        padding-right: 20px;
+        padding-top: 31px;
+        float: right;
+      }
+   }
+}
+@media #{$desktop-width} {
+  .photo-block {
+    &__photo {
+      width: 400px;
+      height: 267px;
+      &--main {
+        width: 1200px;
+        height: 400px;
+      }
+    }
+    &__description-item {
+
+    }
+  }
+}
+
+

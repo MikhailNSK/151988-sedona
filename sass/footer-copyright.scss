@@ -9,5 +9,16 @@
     outline: 1px solid red;
 }
 
-@media #{$tablet-width} {}
-@media #{$desktop-width} {}
+@media #{$tablet-width} {
+  .footer-copyright {
+    float: left;
+    margin: 51px 50px;
+    width: 89px;
+  }
+}
+@media #{$desktop-width} {
+  .footer-copyright {
+    margin: 51px 0px 51px 280px;
+    padding: 0;
+  }
+}

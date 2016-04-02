@@ -10,5 +10,11 @@
     margin-bottom: 40px;
   }
 
-@media #{$tablet-width} {}
+@media #{$tablet-width} {
+  .header-bg {
+    outline: 1px solid red;
+    width: 100%;
+    height: 290px;
+  }
+}
 @media #{$desktop-width} {}

@@ -10,15 +10,15 @@
     padding-bottom: 15px;
     color: 000;
     &--title{
-    padding-left: 70px;
-    padding-top: 8px;
+      padding-left: 70px;
+      padding-top: 8px;
     }
-}
-    &__number {
-      display: block;
-        text-align: center;
-    }
-    &__text {
+  }
+  &__number {
+    display: block;
+    text-align: center;
+  }
+  &__text {
     text-align: center;
     margin:0;
     text-transform: uppercase;
@@ -26,50 +26,113 @@
     line-height: 21px;
     padding: 15px 32px 30px 32px;
     &--text {
-    padding-left: 70px;
-    font-size: 14px;
-    text-transform: uppercase;
-    line-height: 21px;
+      padding-left: 70px;
+      font-size: 14px;
+      text-transform: uppercase;
+      line-height: 21px;
     }
 
-   }
-   &--blue {
+  }
+  &--blue {
     background: #81B3D2;
     color: white;
     margin:0;
     text-align: center;
-   }
-   &--invert {
+  }
+  &--invert {
     background: #81B3D2;
     color: white;
     text-align: center;
     padding: 0;
-   }
-   &--icon:last-child {
+  }
+  &--icon:last-child {
     padding-bottom: 25px;
-   }
- }
+  }
+}
 
 @media #{$tablet-width} {
-    .reason {
-      width: 33.3%;
-      float: left;
+  .reason-row {
+  &--gray {
+    background: #EEEEEE;
+  }
+}
+  .reason {
+    width: 33.3%;
+    float: left;
 
-    &--invert {
+     &--invert {
       float: right;
+      height: 256px;
+     }
+
+    &__title {
+      width: 150px;
+      padding-top: 45px;
+      font-weight: bold;
+      font-size: 21px;
+      padding-right: 50px;
+      padding-left: 50px;
+      &--title {
+        font-size: 21px;
+        padding: 138px 0 0 0;
+        text-transform: uppercase;
+      }
     }
+
+      &__text {
+        padding: 20px 45px 45px 45px;
+        &--text {
+        padding: 0 50px 0px 50px;
+        }
+        &--align {
+          padding: 0 40px;
+        }
+      }
+
     &--blue {
       height: 256px;
+
+    }
+
+    &--icon {
+      outline: 1px solid red;
+      height: 330px;
+      text-align: center;
+    }
+    &--icon:last-child {
+      padding: 0;
     }
   }
 }
 
-@media #{$desktop-width} {}
+@media #{$desktop-width} {
 
 .reason-row {
   &--gray {
-  background: #EEEEEE;
+    background: #EEEEEE;
+  }
 }
-}
+  .reason {
+    &__title {
+      padding: 52px 45px 10px 110px;
+      letter-spacing: 0.5px;
+      width: 155px;
+    }
+    &__text {
+      padding: 24px 48px;
+      &--align {
+      padding: 24px 75px;
+      }
+      &--align-center {
+        padding: 24px 55px;
+      }
+    }
 
+    &__number {
+      text-transform: uppercase;
+      font-size: 14px;
+    }
+  }
+
+}
 

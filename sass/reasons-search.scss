@@ -29,5 +29,31 @@
   }
 }
 
-@media #{$tablet-width} {}
-@media #{$desktop-width} {}
+@media #{$tablet-width} {
+  .reasons-search {
+    &__link {
+      padding: 15px 136px;
+      background: #81B3D2;
+    }
+    &__title {
+      font-size: 30px;
+    }
+    &__text {
+      font-size: 14px;
+      padding: 7px 150px 43px 150px;
+      outline: 1px solid red;
+    }
+    &__map {
+      outline: 1px solid red;
+      width: 100%;
+      background-color: blue;
+    }
+  }
+}
+@media #{$desktop-width} {
+  .reasons-search {
+    &__text {
+      padding: 7px 340px 43px 340px;
+    }
+  }
+}

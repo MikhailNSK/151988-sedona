@@ -18,7 +18,13 @@
 }
 
 
-@media #{$tablet-width} {}
+@media #{$tablet-width} {
+  .footer-social {
+    float: left;
+    outline: 1px solid red;
+    margin-left: 59px;
+  }
+}
 @media #{$desktop-width} {}
 
 

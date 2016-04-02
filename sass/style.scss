@@ -9,10 +9,11 @@
 @import "header-bg.scss";
 
 @import "reasons.scss";
-@import "reason.scss";
+
 @import "reasons-description.scss";
 @import "reasons-search.scss";
-@import "reason-image.scss";
+
+@import "reasons-row.scss";
 
 @import "content-photo.scss";
 @import "content-presentation.scss";
@@ -25,4 +26,5 @@
 @import "footer-copyright.scss";
 @import "footer-social.scss";
 @import "footer-definition.scss";
-
+@import "reason.scss";
+@import "reason-image.scss";

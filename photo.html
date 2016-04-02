@@ -18,45 +18,61 @@
 
      </div>
    </div>
-
+  <div class="content-wrapper">
    <div class="content-photo">
      <h1 class="content-photo__title">Фото и видео</h1>
      <p class="content-photo__text">Не можете решиться на путешествие из-за курса? фотографии помогут вам забыть о политике и экономике.</p>
 
      <div class="photo-block">
-     <div class="photo-block__photo">
+     <div class="photo-block__photo photo-block__photo--main">
       <img src="img/photo-1-mobile.jpg" width="280" height="266">
       </div>
-      <b class="photo-block__description">Неродные просторы</b>
-      <span class="photo-block__author">Автор фото: Борис</span>
-      <span class="photo-block__like">1350</span>
+      <div class="photo-block__description-item">
+        <b class="photo-block__description">Неродные просторы</b>
+        <span class="photo-block__author">Автор фото: Борис</span>
+      </div>
+      <div class="photo-block__like-item">
+        <span class="photo-block__like">1350</span>
+      </div>
     </div>
 
     <div class="photo-block">
     <div class="photo-block__photo">
       <img src="img/photo-2-mobile.jpg" width="280" height="266">
       </div>
+<div class="photo-block__description-item">
       <b class="photo-block__description">Местная растительность</b>
       <span class="photo-block__author">Автор фото: Сергей</span>
+      </div>
+      <div class="photo-block__like-item">
       <span class="photo-block__like">143</span>
+      </div>
     </div>
 
     <div class="photo-block">
     <div class="photo-block__photo">
       <img src="img/photo-3-mobile.jpg" width="280" height="266">
       </div>
+      <div class="photo-block__description-item">
       <p class="photo-block__description">Дорога на север</p>
       <span class="photo-block__author">Автор фото: Петр</span>
+      </div>
+      <div class="photo-block__like-item">
       <span class="photo-block__like">96</span>
+      </div>
     </div>
 
     <div class="photo-block">
     <div class="photo-block__photo">
       <img src="img/photo-4-mobile.jpg" width="280" height="266">
       </div>
+      <div class="photo-block__description-item">
       <b class="photo-block__description">Мост дьявола</b>
       <span class="photo-block__author">Автор фото: Антон</span>
+      </div>
+      <div class="photo-block__like-item">
       <span class="photo-block__like">254</span>
+      </div>
     </div>
 
   </div><!--End content-photo-->
@@ -64,13 +80,13 @@
   <div class="content-presentation">
    <b class="content-presentation__title">Всё еще сомневаетесь?</b>
    <p class="content-presentation__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-   <img src="img/video-mobile.jpg" width="320" height="255">
+   <div class="content-presentation__video"><img src="img/video-mobile.jpg" width="320" height="255"></div>
  </div>
 
  <div class="video-panel">
-  <div class="video-control">
-    <div class="video-control__line"></div>
-    <div class="video-control__range"></div>
+  <div class="video-panel__control">
+    <div class="video-panel__line"></div>
+    <div class="video-panel__range"></div>
   </div>
 
   <div class="video-input">
@@ -91,6 +107,7 @@
   <a href="@" class="footer-copyright__link"></a>
 </div>
 </div><!--End footer-->
+</div>
 </div><!--End container-->
 </body>
 </html>

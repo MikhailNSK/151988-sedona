@@ -3,5 +3,15 @@
     font-size: 21px;
   }
 
-@media #{$tablet-width} {}
-@media #{$desktop-width} {}
+@media #{$tablet-width} {
+   .footer-definition {
+    outline: 1px solid red;
+    float: left;
+    margin: 46px 40px;
+  }
+}
+@media #{$desktop-width} {
+  .footer-definition {
+    margin: 46px 184px 46px 132px;
+  }
+}

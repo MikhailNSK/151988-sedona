@@ -6,6 +6,7 @@
     font-size: 18px;
     padding-top: 34px;
     padding-bottom: 15px;
+    color: #333;
   }
   &__text {
     text-align: center;
@@ -14,7 +15,38 @@
     line-height: 23px;
     padding: 0 25px 18px 25px;
   }
+  &__video {
+    margin-bottom: -50px;
+  }
 }
 
-@media #{$tablet-width} {}
-@media #{$desktop-width} {}
+@media #{$tablet-width} {
+  .content-presentation {
+
+
+    &__title {
+      font-size: 30px;
+    }
+    &__text {
+      padding: 0 165px 18px 165px;
+    }
+    &__video {
+      width: 648px;
+    height: 500px;
+    background-color: blue;
+    margin: 0 auto;
+    }
+  }
+}
+@media #{$desktop-width} {
+  .content-presentation {
+    &__text {
+    padding: 0 385px 18px 385px;
+    }
+    &__video {
+      width: 800px;
+    height: 500px;
+    background-color: blue;
+    }
+  }
+}

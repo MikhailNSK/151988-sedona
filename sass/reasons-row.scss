@@ -11,7 +11,13 @@
   }
 }
 
-@media #{$tablet-width} {}
+@media #{$tablet-width} {
+  .reasons-row {
+    &--image {
+      background-color: blue;
+    }
+  }
+}
 @media #{$desktop-width} {}
 
 

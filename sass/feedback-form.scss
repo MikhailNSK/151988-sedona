@@ -192,9 +192,70 @@
 
 }
 
-@media #{$tablet-width} {}
-@media #{$desktop-width} {}
+@media #{$tablet-width} {
 
+  .feedback-form {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     &__link {
+      padding: 15px 85px;
+      float: left;
+     }
+     &__input {
+      &--tel {
+        width: 628px;
+        outline: 1px solid red;
+        margin: 0;
+      }
+      &--email {
+          width: 628px;
+        outline: 1px solid red;
+      }
+     }
+     &__title {
+
+     }
+     &__space {
+      width: 648px;
+      padding: 0;
+     }
+  }
+  .feedback-form fieldset:nth-child(1) {
+    width: 324px;
+    padding: 0;
+    margin: 0;
+
+  }
+  .feedback-form fieldset:nth-child(2) {
+    width: 648px;
+    padding: 0;
+    margin: 0;
+
+  }
+  .feedback-form fieldset:nth-child(3) {
+    order: -1;
+    width: 324px;
+    padding: 0;
+    margin: 0;
+  }
+    .feedback-form fieldset:nth-child(4) {
+    width: 648px;
+    padding: 0;
+
+
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+      .feedback-form fieldset:nth-child(5) {
+    width: 648px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+  }
+
+}
 
 .label-wrapper1 {
   display: flex;
@@ -239,11 +300,10 @@
 
 .label-wrapper6 {
   width: 280px;
-  display: flex;
-  flex-direction: row-reverse;
-  justify-content: flex-end;
+
   margin-bottom: 47px;
   margin-top: 17px;
+
 }
 
 .label-wrapper7{
@@ -256,6 +316,46 @@
 }
 .label-wrapper7:last-child {
   margin-bottom: 33px;
+}
+
+@media #{$tablet-width} {
+  .label-wrapper7 {
+    width: 200px;
+    outline: 1px solid red;
+    display: inline-block;
+    margin-left: 85px;
+    &__align {
+      margin-left: 55px;
+    }
+  }
+  .label-wrapper8 {
+    width: 648px;
+    height: 350px;
+
+  }
+}
+
+@media #{$desktop-width} {
+  .feedback-form {
+    &__space {
+      width: 960px;
+    }
+  }
+  .feedback-form fieldset:nth-child(1) {
+    width: 480px;
+  }
+   .feedback-form fieldset:nth-child(2) {
+    width: 960px;
+  }
+   .feedback-form fieldset:nth-child(3) {
+    width: 480px;
+  }
+   .feedback-form fieldset:nth-child(4) {
+    width: 960px;
+  }
+   .feedback-form fieldset:nth-child(5) {
+    width: 960px;
+  }
 }
 
 

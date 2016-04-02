@@ -23,4 +23,15 @@
     }
   }
 }
-@media #{$desktop-width} {}
+@media #{$desktop-width} {
+  .reasons-description {
+    &__title {
+      padding: 0px 270px 10px 270px;
+    }
+    &__text {
+    padding-bottom: 35px;
+
+    }
+
+  }
+}
