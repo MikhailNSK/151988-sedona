@@ -1,110 +1,104 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>HTML Academy: Седона</title>
-  <link rel="stylesheet" href="css/style.css">
-
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>HTML Academy: Седона</title>
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      <ul class="main-nav">
-        <li class="main-nav__item"><a href="@" class="main-nav__link">Главная</a></li>
-        <li class="main-nav__item"><a href="@" class="main-nav__link">Фото и Видео</a></li>
-        <li class="main-nav__item"><a href="@" class="main-nav__link"> Форма Отзыва</a></li>
-        <li class="main-nav__item"><a href="@" class="main-nav__link">HTML ACADEMY</a></li>
-      </ul>
-      <div class="header-background"></div>
+<div class="container">
+  <div class="header">
+    <ul class="main-nav">
+      <li class="main-nav__item"><a href="index.html" class="main-nav__link">Главная</a></li>
+      <li class="main-nav__item"><a href="photo.html" class="main-nav__link">Фото и Видео</a></li>
+      <li class="main-nav__item"><a href="@" class="main-nav__link"> Форма Отзыва</a></li>
+      <li class="main-nav__item"><a href="@" class="main-nav__link">HTML ACADEMY</a></li>
+    </ul>
+  <div class="header-background"></div>
+  </div>
+<div class="reasons">
+  <div class="reasons-description">
+    <h1 class="reasons-description__title">Седона &ndash; не большой городок в аризоне, заслуживающий большего!</h1>
+    <p class="reasons-description__text">Рассмотрим 5 причин, по которым седона круче чем гранд каньон!</p>
+  </div>
+<!-- 1 строка -->
+<div class="reasons-row reasons-row--image">
+  <div class="reason reason--blue">
+    <h2 class="reason__title">Настоящий городок</h2>
+    <span class="reason__number">&ndash; №1 &ndash;</span>
+    <p class="reason__text">Седона не атракцион для туристов, там течет своя жизнь</p>
+  </div>
+  <div class="reason-image"></div>
+</div>
+<!-- 2 строка -->
+<div class="reasons-row">
+  <div class="reason reason--icon">
+    <h3 class="reason__title--title">Жилье</h3>
+    <p class="reason__text--text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
+  </div>
+  <div class="reason reason--icon">
+    <h3 class="reason__title--title reason__title--title-two">Сувениры</h3>
+    <p class="reason__text--text reason__text--align">Не только китайского, но и местного производства!</p>
+  </div>
+  <div class="reason reason--icon">
+    <h3 class="reason__title--title reason__title--title-third">Еда</h3>
+    <p class="reason__text--text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
+  </div>
+</div>
+<!-- 3 строка -->
+<div class="reasons-row  reasons-row--image">
+  <div class="reason-image--invert"></div>
+    <div class="reason reason--invert">
+      <h2 class="reason__title">Там есть мост дьявола</h2>
+      <span class="reason__number">&ndash; №2 &ndash;</span>
+      <p class="reason__text reason__text">Да, по нему можно пройти! если конечно вы осмелитесь</p>
     </div>
-
-    <div class="reasons">
-      <div class="reasons-description">
-        <h1 class="reasons-description__title">Седона &ndash; не большой городок в аризоне, заслуживающий большего!</h1>
-        <p class="reasons-description__text">Рассмотрим 5 причин, по которым седона круче чем гранд каньон!</p>
-      </div>
-
-      <!-- 1 строка -->
-      <div class="reasons-row reasons-row--image">
-         <div class="reason reason--blue">
-          <h2 class="reason__title">Настоящий городок</h2>
-          <span class="reason__number">&ndash; №1 &ndash;</span>
-          <p class="reason__text">Седона не атракцион для туристов, там течет своя жизнь</p>
-        </div>
-        <div class="reason-image"><img src="img/photo-city.jpg" width="320" height="260"></div>
-      </div>
-
-      <!-- 2 строка -->
-      <div class="reasons-row">
-        <div class="reason reason--icon">
-          <h3 class="reason__title--title">Жилье</h3>
-          <p class="reason__text--text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-        </div>
-
-        <div class="reason reason--icon">
-          <h3 class="reason__title--title">Сувениры</h3>
-          <p class="reason__text--text reason__text--align">Не только китайского, но и местного производства!</p>
-        </div>
-
-        <div class="reason reason--icon">
-          <h3 class="reason__title--title">Еда</h3>
-          <p class="reason__text--text">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-        </div>
-      </div>
-
-      <!-- 3 строка -->
-      <div class="reasons-row  reasons-row--image">
-        <div class="reason-image reason-image--invert"></div>
-        <div class="reason reason--invert">
-          <h2 class="reason__title">Там есть мост дьявола</h2>
-          <span class="reason__number">&ndash; №2 &ndash;</span>
-          <p class="reason__text reason__text--align">Да, по нему можно пройти! если конечно вы осмелитесь</p>
-        </div>
-        <div class="reason-image"><img src="img/photo-4-mobile.jpg" width="320" height="260"></div>
-      </div>
-      <!-- 4 строка -->
-      <div class="reasons-row reason-row--gray">
-        <div class="reason">
-          <h3 class="reason__title">Небольшая площадь</h3>
-          <span class="reason__number">&ndash; №3 &ndash;</span>
-          <p class="reason__text">Все достопримеча-тельности находятся очень близко</p>
-        </div>
-        <div class="reason">
-          <h3 class="reason__title">Красивая дорога</h3>
-          <span class="reason__number">&ndash; №4 &ndash;</span>
-          <p class="reason__text reason__text--align-center">Ехать в седону из Лас-Вегаса совсем не скучно!</p>
-        </div>
-        <div class="reason">
-          <h3 class="reason__title">Мало туристов</h3>
-          <span class="reason__number">&ndash; №5 &ndash;</span>
-          <p class="reason__text">Большинство едет в гранд каньон и толпится там</p>
-        </div>
-      </div>
+  <div class="reason-image-two"></div>
+</div>
+<!-- 4 строка -->
+<div class="reasons-row reason-row--gray">
+  <div class="reason">
+    <h3 class="reason__title">Небольшая площадь</h3>
+    <span class="reason__number">&ndash; №3 &ndash;</span>
+    <p class="reason__text">Все достопримеча-тельности находятся очень близко</p>
+  </div>
+  <div class="reason">
+    <h3 class="reason__title">Красивая дорога</h3>
+    <span class="reason__number">&ndash; №4 &ndash;</span>
+    <p class="reason__text reason__text--align-center">Ехать в седону из Лас-Вегаса совсем не скучно!</p>
+  </div>
+    <div class="reason">
+      <h3 class="reason__title">Мало туристов</h3>
+      <span class="reason__number">&ndash; №5 &ndash;</span>
+      <p class="reason__text">Большинство едет в гранд каньон и толпится там</p>
     </div>
+  </div>
+</div>
 
 
 
-      <div class="reasons-search">
-        <h4 class="reasons-search__title">Заинтересовались?</h4>
-        <p class="reasons-search__text">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <a href="@" class="reasons-search__link btn">Найти гостиницу</a>
-        <div class="reasons-search__map">
+<div class="reasons-search">
+<h4 class="reasons-search__title">Заинтересовались?</h4>
+<p class="reasons-search__text">Укажите предполагаемые даты поездки и мы покажем вам лучшие предложения гостиниц в седоне</p>
+<div class="reasons-search__block-link"><a href="@" class="reasons-search__link btn">Найти гостиницу</a>
+<div class="reasons-search__map">
 
-        </div>
-      </div><!--End reasons-search-->
+</div>
+</div><!--End reasons-search-->
 
-    <div class="footer">
-      <span class="footer-definition">#VISITSEDONA</span>
-      <ul class="footer-social">
-        <li class="footer-social__item footer-social__item--instagramm"><a href="@" class="footer-social__link footer-social__link--instagramm"></a></li>
-        <li class="footer-social__item footer-social__item--facebook"><a href="@" class="footer-social__link footer-social__link--facebook"></a></li>
-        <li class="footer-social__item footer-social__item--youtube"><a href="@" class="footer-social__link footer-social__link--youtube"></a></li>
-      </ul>
-      <div class="footer-copyright">Разработано
-        <a href="@" class="footer-copyright__link"></a>
-      </div>
-    </div>
-  </div><!--End container-->
+<div class="footer">
+<span class="footer-definition">#VISITSEDONA</span>
+<ul class="footer-social">
+<li class="footer-social__item footer-social__item--instagramm"><a href="@" class="footer-social__link footer-social__link--instagramm"></a></li>
+<li class="footer-social__item footer-social__item--facebook"><a href="@" class="footer-social__link footer-social__link--facebook"></a></li>
+<li class="footer-social__item footer-social__item--youtube"><a href="@" class="footer-social__link footer-social__link--youtube"></a></li>
+</ul>
+<div class="footer-copyright">Разработано
+<a href="@" class="footer-copyright__link"></a>
+</div>
+</div>
+</div><!--End container-->
+</div>
 </body>
 </html>

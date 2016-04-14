@@ -36,12 +36,14 @@
     width: 648px;
     height: 93px;
     margin-top: -93px;
+    background: #000;
+    opacity: 0.6;
 
-    background: red;
     &__control {
-    background: red;
+
     opacity: none;
     position: relative;
+    opacity: 1;
     }
     &__line {
       width: 390px;
@@ -49,11 +51,13 @@
       position: absolute;
       top: 45px;
       left: 93px;
+      opacity: 1;
     }
     &__range {
       position: absolute;
       top: 41px;
       left: 205px;
+      opacity: 1;
     }
 
   }
@@ -62,11 +66,11 @@
   .video-panel {
     width: 800px;
     margin-top: -93px;
-    background: red;
+    background: black;
     opacity: 0.7;
     margin-bottom: 83px;
     &__control {
-      background: red;
+      background: black;
     }
   }
 }

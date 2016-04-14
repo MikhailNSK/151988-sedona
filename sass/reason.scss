@@ -12,6 +12,37 @@
     &--title{
       padding-left: 70px;
       padding-top: 8px;
+      position: relative;
+    }
+    &--title:before {
+      content: '';
+      background: url("../img/icon-house.svg");
+      background-size: cover;
+      width: 40px;
+      height: 40px;
+      position: absolute;
+      left: 15px;
+      top: 0px;
+    }
+    &--title-two:before {
+      content: '';
+      background: url("../img/icon-gift.svg");
+      background-size: cover;
+      width: 40px;
+      height: 48px;
+      position: absolute;
+      left: 15px;
+      top: -8px;
+    }
+    &--title-third:before {
+      content: '';
+      background: url("../img/icon-burger.svg");
+      background-size: cover;
+      width: 45px;
+      height: 40px;
+      position: absolute;
+      left: 15px;
+      top: -3px;
     }
   }
   &__number {
@@ -62,41 +93,75 @@
 
      &--invert {
       float: right;
-      height: 256px;
+
      }
 
     &__title {
-      width: 150px;
-      padding-top: 45px;
+
+
       font-weight: bold;
       font-size: 21px;
-      padding-right: 50px;
-      padding-left: 50px;
+
+      padding: 45px 53px 15px 53px;
+
       &--title {
         font-size: 21px;
         padding: 138px 0 0 0;
         text-transform: uppercase;
+        position: relative;
       }
+        &--title:before {
+      content: '';
+      background: url("../img/icon-house.svg");
+      background-size: cover;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      left: 85px;
+      top: 20px;
+    }
+    &--title-two:before {
+      content: '';
+      background: url("../img/icon-gift.svg");
+      background-size: cover;
+      width: 80px;
+      height: 95px;
+      position: absolute;
+      left: 88px;
+      top: 5px;
+    }
+    &--title-third:before {
+      content: '';
+      background: url("../img/icon-burger.svg");
+      background-size: cover;
+      width: 88px;
+      height: 80px;
+      position: absolute;
+      left: 80px;
+      top: 20px;
+    }
     }
 
       &__text {
-        padding: 20px 45px 45px 45px;
+        padding: 20px 45px 39px 45px;
         &--text {
         padding: 0 50px 0px 50px;
         }
         &--align {
-          padding: 0 40px;
+          padding: 0px 40px 0px 40px;
         }
       }
 
     &--blue {
-      height: 256px;
+      &__title {
+
+      }
 
     }
 
     &--icon {
-      outline: 1px solid red;
-      height: 330px;
+
+
       text-align: center;
     }
     &--icon:last-child {
@@ -114,17 +179,50 @@
 }
   .reason {
     &__title {
-      padding: 52px 45px 10px 110px;
+      padding: 52px 0px 10px 0px;
       letter-spacing: 0.5px;
-      width: 155px;
+      margin: 0 122px;
+      &--title:before {
+      content: '';
+      background: url("../img/icon-house.svg");
+      background-size: cover;
+      width: 80px;
+      height: 80px;
+      position: absolute;
+      left: 157px;
+      top: 20px;
+    }
+    &--title-two:before {
+      content: '';
+      background: url("../img/icon-gift.svg");
+      background-size: cover;
+      width: 80px;
+      height: 95px;
+      position: absolute;
+      left: 160px;
+      top: 5px;
+    }
+    &--title-third:before {
+      content: '';
+      background: url("../img/icon-burger.svg");
+      background-size: cover;
+      width: 88px;
+      height: 80px;
+      position: absolute;
+      left: 152px;
+      top: 20px;
+    }
     }
     &__text {
-      padding: 24px 48px;
+      padding: 24px 48px 56px 48px;
       &--align {
       padding: 24px 75px;
       }
       &--align-center {
         padding: 24px 55px;
+      }
+      &--text {
+        padding: 0 50px 67px 50px;
       }
     }
 

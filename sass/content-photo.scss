@@ -5,7 +5,6 @@
     font-size: 18px;
     text-transform: uppercase;
     padding-bottom: 16px;
-
   }
   &__text {
     text-align: center;
@@ -17,39 +16,34 @@
 }
 
 @media #{$tablet-width} {
-  .content-photo {
-    display: flex;
-    flex-wrap: wrap;
-
-    &__title {
-      font-size: 30px;
-      padding-bottom: 0;
-      padding: 0px 215px;
-    }
-    &__text {
-      padding: 6px 165px;
-
-    }
+.content-photo {
+  display: flex;
+  flex-wrap: wrap;
+  &__title {
+  font-size: 30px;
+  padding-bottom: 0;
+  padding: 0px 215px;
   }
-
-
+  &__text {
+  padding: 6px 165px;
+  }
+}
   .content-wrapper {
     width: 648px;
     margin: 0 auto;
   }
 }
 @media #{$desktop-width} {
-    .content-wrapper {
-    width: 1200px;
-    margin: 0 auto;
-  }
-    .content-photo {
-      &__title {
-        padding: 0px 430px 0px 490px;
-      }
-      &__text {
-        padding: 0px 380px 57px 380px;
-      }
+.content-wrapper {
+  width: 1200px;
+  margin: 0 auto;
+}
+.content-photo {
+    &__title {
+    padding: 0px 430px 0px 490px;
     }
-
+    &__text {
+    padding: 0px 380px 57px 380px;
+    }
+  }
 }

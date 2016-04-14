@@ -6,13 +6,11 @@
     text-align: center;
     display: block;
     vertical-align: top;
-    outline: 1px solid red;
 }
-
 @media #{$tablet-width} {
   .footer-copyright {
     float: left;
-    margin: 51px 50px;
+    margin: 51px 50px 0px 70px;
     width: 89px;
   }
 }

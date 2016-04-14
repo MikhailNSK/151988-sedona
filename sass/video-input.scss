@@ -46,12 +46,12 @@
          width: 20px;
       height: 20px;
       background: url("../img/icon-video-replay.svg") no-repeat center;
-      opacity: none;
       cursor: pointer;
       margin: 0;
       position: absolute;
       top: -10px;
       left: 30px;
+      opacity: 1;
     }
       &--size {
       width: 20px;
@@ -59,13 +59,14 @@
       background: url("../img/icon-video-fullscreen.svg") no-repeat center;
       border: none;
       outline: none;
-      opacity: none;
+
       margin: 0;
       float: right;
       cursor: pointer;
       position: absolute;
       top: -10px;
       left: 588px;
+      opacity: 1;
     }
     &--cc {
       width: 30px;
@@ -81,6 +82,7 @@
       position: absolute;
       top: -10px;
       left: 526px;
+      opacity: 1;
     }
 
    }

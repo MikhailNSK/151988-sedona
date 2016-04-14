@@ -21,6 +21,9 @@
       line-height: 26px;
       padding: 0px 90px;
     }
+    &__text {
+      padding: 15px 30px 20px 30px;
+    }
   }
 }
 @media #{$desktop-width} {

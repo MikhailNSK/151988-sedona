@@ -1,11 +1,51 @@
+@media #{$mobile-width} {
   .header {
-    background: url("../img/logo-sedona-mobile.svg");
     background-repeat: no-repeat;
     background-position: 50% 252px;
+    position: relative;
   }
-
-@media #{$tablet-width} {}
-@media #{$desktop-width} {}
+  .header:after {
+    content: '';
+    background: url("../img/logo-sedona-mobile.svg");
+    width: 100px;
+    height: 83px;
+    position: absolute;
+    top: 252px;
+    left: 110px;
+  }
+}
+@media #{$tablet-width} {
+ .header {
+  background-repeat: no-repeat;
+  background-position: 50% 252px;
+  position: relative;
+}
+.header:after {
+  content: '';
+  background: url("../img/logo-sedona-mobile.svg");
+  width: 100px;
+  height: 83px;
+  position: absolute;
+  top: 0px;
+  left: 334px;
+}
+}
+@media #{$desktop-width} {
+ .header {
+  background-repeat: no-repeat;
+  background-position: 50% 252px;
+  position: relative;
+}
+.header:after {
+  content: '';
+  background: url("../img/logo-sedona-mobile.svg");
+  width: 100px;
+  height: 83px;
+  position: absolute;
+  top: 0px;
+  left: 560px;
+}
+}
 
 
 

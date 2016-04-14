@@ -14,6 +14,10 @@
   font-size: 21px;
   padding: 15px 46px;
   }
+  &__link:hover {
+    background: #00B3D2;
+    transition: all 0.4s;
+  }
 
   &__map {
   margin-top:67px;
@@ -41,19 +45,25 @@
     &__text {
       font-size: 14px;
       padding: 7px 150px 43px 150px;
-      outline: 1px solid red;
+
     }
     &__map {
-      outline: 1px solid red;
+
       width: 100%;
-      background-color: blue;
+      background: url("../img/bg-map-tablet.jpg") no-repeat center;
     }
   }
 }
 @media #{$desktop-width} {
   .reasons-search {
     &__text {
-      padding: 7px 340px 43px 340px;
+      padding: 7px 340px 71px 340px;
+    }
+    &__link {
+
+    }
+    &__map {
+      background: url("../img/bg-map-desktop.jpg") no-repeat center;
     }
   }
 }

@@ -1,76 +1,109 @@
 .photo-block {
-      padding-top: 20px;
-      border-top: 1px solid #E5E5E5;
-     &__photo {
-      text-align: center;
-     }
-     &__description {
-      text-align: left;
-      padding-left: 20px;
-      padding-top: 14px;
-      display: block;
-      text-transform: uppercase;
-      font-size: 14px;
-      font-weight: bold;
-      margin: 0;
-     }
-     &__author {
-      text-align: left;
-      padding-left: 20px;
-      padding-top: 5px;
-      color: #7D7D7D;
-      display: block;
-     }
-     &__like {
-      padding-left: 65px;
-      padding-top: 14px;
-      padding-bottom: 20px;
-      font-weight: bold;
-      font-size: 14px;
-      display: block;
-     }
+  padding-top: 20px;
+  border-top: 1px solid #E5E5E5;
+  &__photo {
+    text-align: center;
+    &--main {
+      width: 320px;
+      height: 256px;
+      background: url("../img/photo-1-mobile.jpg") no-repeat center;
+    }
+    &--first {
+      width: 320px;
+      height: 256px;
+      background: url("../img/photo-2-mobile.jpg") no-repeat center;
+
+    }
+    &--second {
+      background: url("../img/photo-3-mobile.jpg") no-repeat center;
+      width: 320px;
+      height: 256px;
+    }
+    &--third {
+      background: url("../img/photo-4-mobile.jpg") no-repeat center;
+      width: 320px;
+      height: 256px;
+    }
+  }
+  &__description {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 14px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0;
+  }
+  &__author {
+    text-align: left;
+    padding-left: 20px;
+    padding-top: 5px;
+    color: #7D7D7D;
+    display: block;
+  }
+  &__like {
+    padding-left: 65px;
+    padding-top: 14px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+  }
 }
 
 .photo-block:last-child {
-      border-bottom: 1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
 }
 
 @media #{$tablet-width} {
-    .photo-block {
-      border-top: none;
-      outline: 1px solid blue;
-      background-color: #F2F2F2;
-      padding-top: 0;
-      position: relative;
-      &__photo {
-        width: 324px;
-        height: 267px;
-        background-color: red;
-        &--main {
-          width: 648px;
-          height: 400px;
-          background-color: red;
-        }
+  .photo-block {
+    border-top: none;
+    background-color: #F2F2F2;
+    padding-top: 0;
+    position: relative;
+    &__photo {
+      width: 324px;
+      height: 267px;
+      background: url("../img/photo-2-mobile@2x.jpg") no-repeat center;
+      background-size: cover;
+      &--main {
+        width: 648px;
+        height: 400px;
+        background: url("../img/photo-1-tablet.jpg");
       }
-      &__description {
-        float: left;
+      &--first {
+        background: url("../img/photo-2-mobile@2x.jpg") no-repeat center;
+        background-size: cover;
       }
-      &__description-item {
+      &--second {
+        background: url("../img/photo-3-mobile@2x.jpg") no-repeat center;
+        background-size: cover;
+      }
+      &--third {
+        background: url("../img/photo-4-mobile@2x.jpg") no-repeat center;
+        background-size: cover;
+      }
+    }
 
-        float: left;
-        padding-bottom: 17px;
-        padding-top: 7px;
-      }
-      &__like {
-        padding: 0;
-      }
-      &__like-item {
-        padding-left: 0px;
-        padding-right: 20px;
-        padding-top: 31px;
-        float: right;
-      }
-   }
+    &__description {
+      float: left;
+    }
+    &__description-item {
+      float: left;
+      padding-bottom: 17px;
+      padding-top: 7px;
+    }
+    &__like {
+      padding: 0;
+    }
+    &__like-item {
+      padding-left: 0px;
+      padding-right: 20px;
+      padding-top: 31px;
+      float: right;
+    }
+  }
 }
 @media #{$desktop-width} {
   .photo-block {
@@ -80,10 +113,9 @@
       &--main {
         width: 1200px;
         height: 400px;
+        background: url("../img/photo-1-desktop@2x.jpg");
+        background-size: cover;
       }
-    }
-    &__description-item {
-
     }
   }
 }

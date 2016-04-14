@@ -10,22 +10,23 @@
     margin-right: 2px;
   }
   &__link {
-  display: block;
-  padding: 24px 23px;
-
-  background: url("../img/icon-facebook.svg") no-repeat center #81B3D2;
+    display: block;
+    padding: 24px 23px;
+    background: url("../img/icon-facebook.svg") no-repeat center #81B3D2;
   }
 }
-
 
 @media #{$tablet-width} {
   .footer-social {
     float: left;
-    outline: 1px solid red;
-    margin-left: 59px;
+    margin-left: 40px;
   }
 }
-@media #{$desktop-width} {}
+@media #{$desktop-width} {
+  .footer-social {
+    margin-left: 75px;
+  }
+}
 
 
 

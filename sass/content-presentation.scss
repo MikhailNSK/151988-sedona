@@ -17,13 +17,14 @@
   }
   &__video {
     margin-bottom: -50px;
+    width: 320px;
+    height: 206px;
+    background: url("../img/video-mobile.jpg") no-repeat;
   }
 }
 
 @media #{$tablet-width} {
   .content-presentation {
-
-
     &__title {
       font-size: 30px;
     }
@@ -33,7 +34,8 @@
     &__video {
       width: 648px;
     height: 500px;
-    background-color: blue;
+    background: url("../img/video-tablet@2x.jpg");
+    background-size: cover;
     margin: 0 auto;
     }
   }

@@ -1,3 +1,4 @@
+
 .header-background {
  width: 320px;
  height: 360px;
@@ -6,26 +7,49 @@
  background: url("../img/text-sedona-index.svg") no-repeat center,
  $bg-darkgrey url("../img/bg-back-mobile.jpg") no-repeat;
  padding:0;
- background-size: cover;
+ background-size: 250px 200px, cover;
  background-repeat: no-repeat;
 }
+.header-background:after {
+ content: "";
+ display: block;
+ width: 100%;
+ position: absolute;
+ bottom: -1px;
+ left: 0;
+ height: 57px;
+ background-image: url("../img/bg-intro-triangle-mobile.svg");
+ background-position: bottom;
+ background-repeat: no-repeat;
+ background-size: 100% 27px;
+}
+
 @media #{$tablet-width} {
   .header-background {
     width: 100%;
     height: 520px;
     background: url("../img/text-sedona-index.svg") no-repeat center,
-    $bg-darkgrey url("../img/bg-back-mobile.jpg") no-repeat;
-
+    $bg-darkgrey url("../img/bg-back-desktop.jpg") no-repeat;
+  }
+  .header-background:after {
+    background-image: url("../img/bg-intro-triangle-tablet.svg");
+    background-size: 100% 57px;
   }
 }
 @media #{$desktop-width} {
   .header-background {
-   background: url("../img/text-sedona-index.svg") no-repeat center,
-   $bg-darkgrey url("../img/bg-back-mobile.jpg") no-repeat;
+   background: url("../img/text-sedona.svg") no-repeat center,
+   $bg-darkgrey url("../img/bg-back-desktop.jpg") no-repeat;
    background-repeat: no-repeat;
+   background-size: 700px 700px, cover;
    width: 100%;
    height: 489px;
  }
+ .header-background:after {
+  background-image: url("../img/bg-intro-triangle-desktop.svg");
+  background-size: 100% 57px;
+}
+
 }
 
 
